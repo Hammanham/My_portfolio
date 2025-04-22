@@ -1,0 +1,21 @@
+/* Custom styles to complement Tailwind */
+nav a {
+    transition: color 0.3s ease;
+  }
+  
+  section {
+    scroll-margin-top: 80px; /* Adjust for sticky nav */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  form input, form textarea {
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+  }
